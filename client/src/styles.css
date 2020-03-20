@@ -175,11 +175,16 @@ header {
   padding: 0;
 }
 
-.nav__link {
+.nav__link,
+.nav__link--project {
   color: inherit;
   font-weight: var(--fw-bold);
   font-size: var(--fs-h2);
   text-decoration: none;
+}
+
+.nav__link--project {
+  font-size: var(--fs-h3);
 }
 
 .nav__link:hover {
@@ -220,6 +225,10 @@ header {
 .hamburger {
   display: block;
   position: relative;
+}
+
+.hamburger-hide .hamburger {
+  display: none;
 }
 
 .hamburger,
