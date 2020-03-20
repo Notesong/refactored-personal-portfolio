@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import port1 from "../images/tipsease.jpg";
-import port2 from "../images/deadoralive.jpg";
-import port3 from "../images/lambda-times.jpg";
+import port1 from "../../images/tipsease.jpg";
+import port2 from "../../images/deadoralive.jpg";
+import port3 from "../../images/lambda-times.jpg";
 
 export const Work = () => {
   return (
@@ -13,23 +13,23 @@ export const Work = () => {
         A selection of my range of work
       </p>
       <div className="portfolio">
-        <Link to={`/`} className="portfolio__item">
+        <Link to={`/project/1`} className="portfolio__item">
           <img src={port1} alt="Tipsease" className="portfolio__img" />
         </Link>
-        <Link to={`/`} className="portfolio__item">
+        <Link to={`/project/1`} className="portfolio__item">
           <img
             src={port2}
             alt="Celebrity Dead or Alive"
             className="portfolio__img"
           />
         </Link>
-        <Link to={`/`} className="portfolio__item">
+        <Link to={`/project/1`} className="portfolio__item">
           <img src={port3} alt="Lambda-Times" className="portfolio__img" />
         </Link>
-        <Link to={`/`} className="portfolio__item">
+        <Link to={`/project/1`} className="portfolio__item">
           <img src={port1} alt="Tipsease" className="portfolio__img" />
         </Link>
-        <Link to={`/`} className="portfolio__item">
+        <Link to={`/project/1`} className="portfolio__item">
           <img src={port1} alt="Tipsease" className="portfolio__img" />
         </Link>
       </div>

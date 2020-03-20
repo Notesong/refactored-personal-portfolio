@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 export const Services = () => {
   return (
@@ -34,9 +33,9 @@ export const Services = () => {
           </p>
         </div>
       </div>
-      <Link to={`/#work`} className="btn">
+      <a href="#work" className="btn">
         My Work
-      </Link>
+      </a>
     </section>
   );
 };
