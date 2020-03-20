@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <header>
       <div className="logo">
-        <h1>&lt;DevLee&gt;</h1>
+        <h1 className="header__title">&lt;devlee&gt;</h1>
       </div>
       <button className="nav-toggle" aria-label="toggle navigation">
         <span className="hamburger"></span>

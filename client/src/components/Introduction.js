@@ -11,7 +11,7 @@ export const Introduction = () => {
       <p className="section__subtitle section__subtitle--intro">
         full stack web dev
       </p>
-      <img src={portrait} alt="a portrait of me" />
+      <img src={portrait} alt="a portrait of me" className="intro__img" />
     </section>
   );
 };
