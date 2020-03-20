@@ -1,12 +1,12 @@
 import React from "react";
 
-import portrait from "../images/Lee-portrait.jpg";
+import portrait from "../../images/lee-portrait.jpg";
 
-export const Introduction = () => {
+export const Title = () => {
   return (
-    <section className="intro" id="home">
+    <section className="intro">
       <h1 className="section__title section__title--intro">
-        Hi, I am <strong>Lee Damien</strong>
+        The title <strong>of my project</strong>
       </h1>
       <p className="section__subtitle section__subtitle--intro">
         full stack web dev

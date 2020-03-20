@@ -1,6 +1,6 @@
 import React from "react";
 
-import portrait from "../images/lee-portrait.jpg";
+import portrait from "../../images/lee-portrait.jpg";
 
 export const About = () => {
   return (
