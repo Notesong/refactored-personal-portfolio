@@ -1,9 +1,10 @@
 import React from "react";
 
-export const Description = () => {
+export const Description = ({ desc, techStack, link, github, highlights }) => {
   return (
     <div className="portfolio-item-individual">
-      <p></p>
+      <p>{techStack}</p>
+      <p>{desc}</p>
     </div>
   );
 };
