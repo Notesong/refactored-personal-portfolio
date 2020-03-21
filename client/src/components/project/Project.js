@@ -28,9 +28,8 @@ const pds = [
       "Tests your celebrity knowledge on whether a celebrity is alive or dead.",
     TechStack:
       "React, API calls, Authentication, Formik, Context API, HTML, CSS, JavaScript",
-    Link: "https://notesong.github.io/Sprint-Challenge-Applied-Javascript/",
-    Github:
-      "http://https://github.com/Notesong/Sprint-Challenge-Applied-Javascript",
+    Link: "https://celebritydeadoralive5.netlify.com",
+    Github: "https://github.com/Celebrity-Dead-or-Alive-5/front-end",
     Highlights: [
       "Used React-Router-Dom for the navagation",
       "Coded the timed quiz that sends user information back to the server and displays stats to the user using context api.",

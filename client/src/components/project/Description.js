@@ -30,7 +30,7 @@ export const Description = ({
       {imgAddDesc ? <img src={imgAddDesc} alt={imgAddDescText} /> : ""}
       <h3>Links</h3>
       <p className="portfolio-item-individual--links">
-        <a href={link}>Website</a> | <a href={github}>Github Repository</a>
+        <a href={link}>Website</a> | <a href={github}>Github Repo</a>
       </p>
     </div>
   );
