@@ -11,9 +11,17 @@ import { GlobalProvider } from "./context/GlobalState";
 import "./styles.css";
 
 function App() {
+  function handleUpdate() {
+    let { action } = this.state.location;
+
+    if (action === "PUSH") {
+      window.scrollTo(0, 0);
+    }
+  }
+
   return (
     <GlobalProvider>
-      <Router>
+      <Router onUpdate={handleUpdate}>
         <div className="App">
           <Header />
           <Switch>

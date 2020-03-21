@@ -48,6 +48,8 @@ export const Project = props => {
 
   useEffect(() => {
     setIsProject(true);
+    const html = document.documentElement;
+    html.classList.remove("smooth-scroll");
     window.scrollTo(0, 0);
   }, []);
 

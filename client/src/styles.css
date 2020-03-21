@@ -41,8 +41,8 @@
 
 /* General styles */
 
-html {
-  /* scroll-behavior: smooth; */
+.smooth-scroll {
+  scroll-behavior: smooth;
 }
 
 body {

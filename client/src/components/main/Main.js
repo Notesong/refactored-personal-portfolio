@@ -12,6 +12,8 @@ export const Main = () => {
 
   useEffect(() => {
     setIsProject(false);
+    const html = document.documentElement;
+    html.classList.add("smooth-scroll");
   }, []);
 
   return (
