@@ -8,7 +8,7 @@ export const Footer = () => {
       </a>
       <ul className="social-list">
         <li className="social-list__item">
-          <a className="social-list__link" href="https://github.com">
+          <a className="social-list__link" href="https://github.com/Notesong">
             <i className="fab fa-github"></i>{" "}
           </a>
         </li>

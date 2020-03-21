@@ -409,8 +409,11 @@ header {
 }
 
 .portfolio {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .portfolio__item {
@@ -420,7 +423,6 @@ header {
 
 .portfolio__img {
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
-  min-width: 100%;
 }
 
 .portfolio__item:focus {
