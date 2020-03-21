@@ -415,6 +415,7 @@ header {
 
 .portfolio__img {
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+  min-width: 100%;
 }
 
 .portfolio__item:focus {
@@ -481,7 +482,8 @@ header {
 }
 
 .portfolio-item-individual h3,
-.portfolio-item-individual p {
+.portfolio-item-individual p,
+.portfolio-item-individual ul {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;

@@ -6,7 +6,7 @@ export const Services = () => {
       <h2 className="section__title section__title--services">What I do</h2>
       <div className="services">
         <div className="service">
-          <h3>Design + Development</h3>
+          <h3>React Development</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -15,7 +15,7 @@ export const Services = () => {
           </p>
         </div>
         <div className="service">
-          <h3>E-Commerce</h3>
+          <h3>Node.js Back-end</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -24,7 +24,7 @@ export const Services = () => {
           </p>
         </div>
         <div className="service">
-          <h3>WordPress</h3>
+          <h3>Website Refactoring</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
