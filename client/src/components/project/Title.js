@@ -1,17 +1,15 @@
 import React from "react";
 
-import portrait from "../../images/lee-portrait.jpg";
-
-export const Title = () => {
+export const Title = ({ title, titleStrong, img }) => {
   return (
     <section className="intro">
       <h1 className="section__title section__title--intro">
-        The title <strong>of my project</strong>
+        {title}
+        {title ? <br /> : ""}
+        <strong>{titleStrong}</strong>
       </h1>
-      <p className="section__subtitle section__subtitle--intro">
-        full stack web dev
-      </p>
-      <img src={portrait} alt="a portrait of me" className="intro__img" />
+      <p className="section__subtitle section__subtitle--intro">&nbsp;</p>
+      <img src={img} alt={title} className="intro__img" />
     </section>
   );
 };

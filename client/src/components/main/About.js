@@ -11,16 +11,14 @@ export const About = () => {
       </p>
       <div className="about-me__body">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          I'm a full-stack web developer and build web applications with HTML,
+          CSS, JavaScript, React, and Redux. I'm currently heading into
+          everything Back-end with Node.js, programming back-ends and API's with
+          special consideration for security.
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          I'm also a fiction writer with over a million million words to date
+          and read my heart out. When I'm not programming, anyway.
         </p>
       </div>
       <img src={portrait} alt="a portrait of me" className="about-me__img" />
