@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 import port1 from "../../images/tipsease.jpg";
 import port2 from "../../images/deadoralive.jpg";
-import port3 from "../../images/lambda-times.jpg";
 
 export const Work = () => {
   return (

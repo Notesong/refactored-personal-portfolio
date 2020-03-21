@@ -6,30 +6,19 @@ export const Services = () => {
       <h2 className="section__title section__title--services">What I do</h2>
       <div className="services">
         <div className="service">
-          <h3>React Development</h3>
+          <h3>Front-end React Development</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-        </div>
-        <div className="service">
-          <h3>Node.js Back-end</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            From standard HTML, CSS, and JavaScript to single page React Apps, I
+            create mobile friendly websites that are easily customizable and
+            maintainable.
           </p>
         </div>
         <div className="service">
           <h3>Website Refactoring</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Restructuring existing code brings a website up to modern standards
+            while keeping and adding new functionality. Refactoring old code is
+            a puzzle, an adventure, a fun one at that.
           </p>
         </div>
       </div>
