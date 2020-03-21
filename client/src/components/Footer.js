@@ -13,18 +13,11 @@ export const Footer = () => {
           </a>
         </li>
         <li className="social-list__item">
-          <a className="social-list__link" href="https://github.com">
-            <i className="fab fa-twitter"></i>
-          </a>
-        </li>
-        <li className="social-list__item">
-          <a className="social-list__link" href="https://github.com">
-            <i className="fab fa-dribbble"></i>
-          </a>
-        </li>
-        <li className="social-list__item">
-          <a className="social-list__link" href="https://github.com">
-            <i className="fab fa-codepen"></i>
+          <a
+            className="social-list__link"
+            href="https://www.linkedin.com/in/lee-damien/"
+          >
+            <i class="fab fa-linkedin"></i>
           </a>
         </li>
       </ul>
