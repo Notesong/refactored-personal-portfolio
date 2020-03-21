@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import port1 from "../../images/tipsease.jpg";
 import port2 from "../../images/deadoralive.jpg";
+import port3 from "../../images/betterprofessor.jpg";
 
 export const Work = () => {
   return (
@@ -12,6 +13,9 @@ export const Work = () => {
         A selection of my range of work
       </p>
       <div className="portfolio">
+        <Link to={`/project/2`} className="portfolio__item">
+          <img src={port3} alt="Better Professor" className="portfolio__img" />
+        </Link>
         <Link to={`/project/0`} className="portfolio__item">
           <img src={port1} alt="Tipsease" className="portfolio__img" />
         </Link>
