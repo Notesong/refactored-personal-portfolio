@@ -1,4 +1,5 @@
 import React from "react";
+import shortid from "shortid";
 
 export const Description = ({
   techStack,
@@ -21,7 +22,7 @@ export const Description = ({
       <h3>What I did:</h3>
       <ul>
         {highlights.map(highlight => {
-          return <li>{highlight}</li>;
+          return <li key={shortid.generate()}>{highlight}</li>;
         })}
       </ul>
       {imgHighlight ? <img src={imgHighlight} alt={imgHighlightText} /> : ""}

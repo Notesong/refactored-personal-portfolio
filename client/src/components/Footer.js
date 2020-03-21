@@ -17,7 +17,7 @@ export const Footer = () => {
             className="social-list__link"
             href="https://www.linkedin.com/in/lee-damien/"
           >
-            <i class="fab fa-linkedin"></i>
+            <i className="fab fa-linkedin"></i>
           </a>
         </li>
       </ul>

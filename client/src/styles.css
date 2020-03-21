@@ -41,7 +41,7 @@
 
 /* General styles */
 
-html {
+.smooth-scroll {
   scroll-behavior: smooth;
 }
 
@@ -184,7 +184,7 @@ header {
 .nav__link,
 .nav__link--project {
   color: inherit;
-  font-weight: var(--fw-bold);
+  font-weight: var(--fw-reg);
   font-size: var(--fs-h2);
   text-decoration: none;
 }
