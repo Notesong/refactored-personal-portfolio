@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Header = () => {
+export const MainNav = () => {
   const navToggle = e => {
     e.preventDefault();
     document.body.classList.toggle("nav-open");
@@ -11,10 +11,7 @@ export const Header = () => {
   };
 
   return (
-    <header>
-      <div className="logo">
-        <h1 className="header__title">&lt;devlee&gt;</h1>
-      </div>
+    <>
       <button
         onClick={navToggle}
         className="nav-toggle"
@@ -46,6 +43,6 @@ export const Header = () => {
           </li>
         </ul>
       </nav>
-    </header>
+    </>
   );
 };

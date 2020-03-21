@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useEffect, useContext } from "react";
 
-import { Header } from "./ProjectHeader.js";
 import { Title } from "./Title.js";
 import { Description } from "./Description.js";
 
-const projectDescriptions = [
+import { GlobalContext } from "../../context/GlobalState";
+
+const pds = [
   {
     TitleStrong: "Tipsease",
     Desc: "Tip your server in three easy and secure steps.",
@@ -43,34 +44,40 @@ const projectDescriptions = [
 ];
 
 export const Project = props => {
+  const { setIsProject } = useContext(GlobalContext);
+
+  useEffect(() => {
+    setIsProject(true);
+    window.scrollTo(0, 0);
+  }, []);
+
   const id = props.match.params.id;
 
   // title info
-  const title = projectDescriptions[id].Title;
-  const titleStrong = projectDescriptions[id].TitleStrong;
-  const img = projectDescriptions[id].Img;
+  const title = pds[id].Title;
+  const titleStrong = pds[id].TitleStrong;
+  const img = pds[id].Img;
 
   // Short descriptors
-  const desc = projectDescriptions[id].Desc;
-  const techStack = projectDescriptions[id].TechStack;
+  const desc = pds[id].Desc;
+  const techStack = pds[id].TechStack;
 
   // Highlights section
-  const highlights = projectDescriptions[id].Highlights;
-  const imgHighlight = projectDescriptions[id].ImgHighlight;
-  const imgHighlightText = projectDescriptions[id].ImgHighlightText;
+  const highlights = pds[id].Highlights;
+  const imgHighlight = pds[id].ImgHighlight;
+  const imgHighlightText = pds[id].ImgHighlightText;
 
   // Additional Description section
-  const additionalDesc = projectDescriptions[id].AdditionalDesc;
-  const imgAddDesc = projectDescriptions[id].ImgAddDesc;
-  const imgAddDescText = projectDescriptions[id].ImgAddDescText;
+  const additionalDesc = pds[id].AdditionalDesc;
+  const imgAddDesc = pds[id].ImgAddDesc;
+  const imgAddDescText = pds[id].ImgAddDescText;
 
   // links section
-  const link = projectDescriptions[id].Link;
-  const github = projectDescriptions[id].Github;
+  const link = pds[id].Link;
+  const github = pds[id].Github;
 
   return (
-    <main>
-      <Header />
+    <>
       <Title title={title} titleStrong={titleStrong} img={img} />
       <Description
         techStack={techStack}
@@ -84,6 +91,6 @@ export const Project = props => {
         imgAddDesc={imgAddDesc}
         imgAddDescText={imgAddDescText}
       />
-    </main>
+    </>
   );
 };
