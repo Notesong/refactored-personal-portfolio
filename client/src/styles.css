@@ -15,7 +15,7 @@
 
   --clr-light: #fff;
   --clr-dark: #303030;
-  --clr-accent: #16e0bd;
+  --clr-accent: #6e57f0;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -130,6 +130,7 @@ h3 {
   padding: 0.25em 1em;
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
+  color: var(--clr-light);
 }
 
 .section__subtitle--work {
@@ -146,8 +147,8 @@ header {
   padding: 1em;
 }
 
-.logo {
-  max-width: 100px;
+.logo h1 {
+  font-weight: var(--fw-reg);
 }
 
 .nav {
@@ -185,6 +186,11 @@ header {
 
 .nav__link--project {
   font-size: var(--fs-h3);
+}
+
+.nav__link--project:hover {
+  text-decoration: underline;
+  opacity: 0.8;
 }
 
 .nav__link:hover {
@@ -464,4 +470,33 @@ header {
 
 .social-list__link {
   padding: 0.5em;
+}
+
+/* Individual portfolio item styles */
+
+.portfolio-item-individual {
+  padding: 0 2em 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.portfolio-item-individual h3,
+.portfolio-item-individual p {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-item-individual h3 ~ h3 {
+  margin-top: 2em;
+}
+
+.portfolio-item-individual a {
+  text-decoration: none;
+  color: var(--clr-accent);
+  font-weight: var(--fw-bold);
+}
+.portfolio-item-individual a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
 }

@@ -16,15 +16,12 @@ export const Work = () => {
         <Link to={`/project/0`} className="portfolio__item">
           <img src={port1} alt="Tipsease" className="portfolio__img" />
         </Link>
-        <Link to={`/project/2`} className="portfolio__item">
+        <Link to={`/project/1`} className="portfolio__item">
           <img
             src={port2}
             alt="Celebrity Dead or Alive"
             className="portfolio__img"
           />
-        </Link>
-        <Link to={`/project/1`} className="portfolio__item">
-          <img src={port3} alt="Lambda-Times" className="portfolio__img" />
         </Link>
       </div>
     </section>
